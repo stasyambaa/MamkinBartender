@@ -26,14 +26,15 @@ class MainViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return coctailsArray.count
+        return cocktailsArray.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
-        cell.imageCocktail.image = UIImage(named: coctailsArray[indexPath.row])
-        cell.labelCocktail.text = coctailsArray[indexPath.row]
+       // cell.imageCocktail.image = UIImage(named: cocktailsArray[indexPath.row])
+        cell.imageCocktail.image = cocktailsArray[indexPath.row].image
+        cell.labelCocktail.text = cocktailsArray[indexPath.row].name
         cell.imageCocktail.layer.cornerRadius = 25
         cell.imageCocktail.clipsToBounds = true
 
@@ -43,6 +44,10 @@ class MainViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 85
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        <#code#>
     }
 
     /*

@@ -14,6 +14,7 @@
 		E1608A0E280AE5F800635298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1608A0C280AE5F800635298 /* LaunchScreen.storyboard */; };
 		E1608A16280AE64500635298 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1608A15280AE64500635298 /* MainViewController.swift */; };
 		E1608A18280AE6BD00635298 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1608A17280AE6BD00635298 /* CustomTableViewCell.swift */; };
+		E1608A1A280AF32E00635298 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1608A19280AF32E00635298 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E1608A0F280AE5F800635298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1608A15280AE64500635298 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E1608A17280AE6BD00635298 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E1608A19280AF32E00635298 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E1608A15280AE64500635298 /* MainViewController.swift */,
 				E1608A17280AE6BD00635298 /* CustomTableViewCell.swift */,
 				E1608A07280AE5F700635298 /* Main.storyboard */,
+				E1608A19280AF32E00635298 /* Model.swift */,
 				E1608A0A280AE5F800635298 /* Assets.xcassets */,
 				E1608A0C280AE5F800635298 /* LaunchScreen.storyboard */,
 				E1608A0F280AE5F800635298 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1608A1A280AF32E00635298 /* Model.swift in Sources */,
 				E1608A16280AE64500635298 /* MainViewController.swift in Sources */,
 				E1608A02280AE5F700635298 /* AppDelegate.swift in Sources */,
 				E1608A18280AE6BD00635298 /* CustomTableViewCell.swift in Sources */,
