@@ -9,7 +9,7 @@ import UIKit
 
 class MainViewController: UITableViewController {
 
-    let coctailsArray = ["Маргарита", "Олд фэшн", "Манхеттен", "Негрони"]
+   // let coctailsArray = ["Маргарита", "Олд фэшн", "Манхеттен", "Негрони"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,9 +46,7 @@ class MainViewController: UITableViewController {
         return 85
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
-    }
+   
 
     /*
     // Override to support conditional editing of the table view.
