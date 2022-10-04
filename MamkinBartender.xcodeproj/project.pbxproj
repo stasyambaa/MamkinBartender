@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16AEE2528EC5F2700FE048E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AEE2428EC5F2700FE048E /* TabBarController.swift */; };
+		E16AEE2928EC619100FE048E /* Resourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16AEE2828EC619100FE048E /* Resourses.swift */; };
 		E182ED7D28EC5B19008E3644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182ED7C28EC5B19008E3644 /* AppDelegate.swift */; };
 		E182ED7F28EC5B19008E3644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182ED7E28EC5B19008E3644 /* SceneDelegate.swift */; };
 		E182ED8128EC5B19008E3644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E182ED8028EC5B19008E3644 /* ViewController.swift */; };
-		E182ED8428EC5B19008E3644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E182ED8228EC5B19008E3644 /* Main.storyboard */; };
 		E182ED8628EC5B1A008E3644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E182ED8528EC5B1A008E3644 /* Assets.xcassets */; };
 		E182ED8928EC5B1A008E3644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E182ED8728EC5B1A008E3644 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E16AEE2428EC5F2700FE048E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E16AEE2828EC619100FE048E /* Resourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resourses.swift; sourceTree = "<group>"; };
 		E182ED7928EC5B19008E3644 /* MamkinBartender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamkinBartender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E182ED7C28EC5B19008E3644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E182ED7E28EC5B19008E3644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E182ED8028EC5B19008E3644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E182ED8328EC5B19008E3644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E182ED8528EC5B1A008E3644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E182ED8828EC5B1A008E3644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E182ED8A28EC5B1A008E3644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E16AEE2228EC5CFA00FE048E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E182ED7C28EC5B19008E3644 /* AppDelegate.swift */,
+				E182ED7E28EC5B19008E3644 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E16AEE2328EC5D1800FE048E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E182ED8528EC5B1A008E3644 /* Assets.xcassets */,
+				E182ED8728EC5B1A008E3644 /* LaunchScreen.storyboard */,
+				E182ED8A28EC5B1A008E3644 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E16AEE2628EC616100FE048E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E16AEE2828EC619100FE048E /* Resourses.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E182ED7028EC5B19008E3644 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +85,11 @@
 		E182ED7B28EC5B19008E3644 /* MamkinBartender */ = {
 			isa = PBXGroup;
 			children = (
-				E182ED7C28EC5B19008E3644 /* AppDelegate.swift */,
-				E182ED7E28EC5B19008E3644 /* SceneDelegate.swift */,
+				E16AEE2628EC616100FE048E /* Helpers */,
+				E16AEE2228EC5CFA00FE048E /* Application */,
+				E16AEE2328EC5D1800FE048E /* SupportingFiles */,
 				E182ED8028EC5B19008E3644 /* ViewController.swift */,
-				E182ED8228EC5B19008E3644 /* Main.storyboard */,
-				E182ED8528EC5B1A008E3644 /* Assets.xcassets */,
-				E182ED8728EC5B1A008E3644 /* LaunchScreen.storyboard */,
-				E182ED8A28EC5B1A008E3644 /* Info.plist */,
+				E16AEE2428EC5F2700FE048E /* TabBarController.swift */,
 			);
 			path = MamkinBartender;
 			sourceTree = "<group>";
@@ -127,7 +154,6 @@
 			files = (
 				E182ED8928EC5B1A008E3644 /* LaunchScreen.storyboard in Resources */,
 				E182ED8628EC5B1A008E3644 /* Assets.xcassets in Resources */,
-				E182ED8428EC5B19008E3644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E182ED8128EC5B19008E3644 /* ViewController.swift in Sources */,
+				E16AEE2528EC5F2700FE048E /* TabBarController.swift in Sources */,
 				E182ED7D28EC5B19008E3644 /* AppDelegate.swift in Sources */,
+				E16AEE2928EC619100FE048E /* Resourses.swift in Sources */,
 				E182ED7F28EC5B19008E3644 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E182ED8228EC5B19008E3644 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E182ED8328EC5B19008E3644 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E182ED8728EC5B1A008E3644 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +309,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NQA2SB839;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MamkinBartender/Info.plist;
+				INFOPLIST_FILE = MamkinBartender/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +322,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.MamkinBartender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +340,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NQA2SB839;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MamkinBartender/Info.plist;
+				INFOPLIST_FILE = MamkinBartender/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +353,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.MamkinBartender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
